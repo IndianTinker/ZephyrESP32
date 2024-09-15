@@ -1,0 +1,166 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      The target system is: Generic - 3.7.99 - xtensa
+      The host system is: Darwin - 23.6.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find _vectors.o: No such file or directory
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhandlers-sim: No such file or directory
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhal: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/3.30.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find _vectors.o: No such file or directory
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhandlers-sim: No such file or directory
+      /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhal: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/3.30.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/Users/rgupta/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-espressif_esp32_zephyr-elf-gcc (Zephyr SDK 0.16.8) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "/Users/rgupta/zephyrproject/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "/Users/rgupta/zephyrproject/zephyr/CMakeLists.txt:487 (zephyr_cc_option)"
+    directories:
+      source: "/Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/CMakeScratch/TryCompile-cKvQ0C"
+      binary: "/Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/CMakeScratch/TryCompile-cKvQ0C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/rgupta/zephyrproject/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__Users_rgupta_zephyrProjects_hello_serial_input_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___Users_rgupta_zephyr_sdk_0_16_8_xtensa_espressif_esp32_zephyr_elf_bin____lib_gcc_xtensa_espressif_esp32_zephyr_elf_12_2_0_include___isystem___Users_rgupta_zephyr_sdk_0_16_8_xtensa_espressif_esp32_zephyr_elf_bin____lib_gcc_xtensa_espressif_esp32_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/CMakeScratch/TryCompile-cKvQ0C'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bbae2
+        [1/2] /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -Dcheck_fmacro_prefix_map__Users_rgupta_zephyrProjects_hello_serial_input_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___Users_rgupta_zephyr_sdk_0_16_8_xtensa_espressif_esp32_zephyr_elf_bin____lib_gcc_xtensa_espressif_esp32_zephyr_elf_12_2_0_include___isystem___Users_rgupta_zephyr_sdk_0_16_8_xtensa_espressif_esp32_zephyr_elf_bin____lib_gcc_xtensa_espressif_esp32_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "/Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/include" -isystem "/Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=/Users/rgupta/zephyrProjects/hello_serial_input=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_bbae2.dir/src.c.obj -c /Users/rgupta/zephyrProjects/hello_serial_input/build/CMakeFiles/CMakeScratch/TryCompile-cKvQ0C/src.c
+        [2/2] : && /Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -nostartfiles -nostdlib -isystem "/Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/include" -isystem "/Users/rgupta/zephyr-sdk-0.16.8/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_bbae2.dir/src.c.obj -o cmTC_bbae2   && :
+        
+      exitCode: 0
+...
